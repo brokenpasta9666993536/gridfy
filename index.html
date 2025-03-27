@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gridify</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.4.2/mammoth.browser.min.js"></script>
+</head>
+<body>
+<div class="container">
+<h2>Gridify</h2>
+<div class="section">
+<h3>Upload Word File</h3>
+<input type="file" id="wordFile" accept=".docx">
+<button onclick="convertWordToExcel()">Convert Word File</button>
+</div>
+<div class="section">
+<h3>Enter Text</h3>
+<textarea id="textInput" rows="4" placeholder="Enter text here..."></textarea>
+<button onclick="convertTextToExcel()">Convert Text</button>
+</div>
+</div>
+</body>
+</html>
